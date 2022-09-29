@@ -1,3 +1,6 @@
+
+// 1-exam
+
 function convert(bool){
   let answer=""
   if(bool){
@@ -11,6 +14,9 @@ function convert(bool){
 
 console.log(convert(true));
 
+
+// 2-exam
+
 function sumOfNegatives(arr){
   let summ=0
   arr.forEach(e => {
@@ -22,6 +28,10 @@ function sumOfNegatives(arr){
 }
 
 console.log(sumOfNegatives([-2,2,4,-7]));
+
+
+// 3-exam
+
 
 function sumOfTwoArrays(arr1,arr2){
   let summ1=0
@@ -38,6 +48,8 @@ function sumOfTwoArrays(arr1,arr2){
 
 console.log(sumOfTwoArrays([5,6,7],[-3,4,9]));
 
+
+// 4-exam
 
 let fArray=[]
 function generateAndSum(num){
